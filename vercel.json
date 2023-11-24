@@ -1,0 +1,8 @@
+{
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://cdn.discordapp.com/$1"
+    }
+  ]
+}
